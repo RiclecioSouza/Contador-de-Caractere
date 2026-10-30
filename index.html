@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Contador de Caractere</title>
+</head>
+
+<body>
+    <main>
+        <div class="titulo">
+            <h3>Contador de Caractere</h3>
+        </div>
+
+        <section>
+            <div class="tituloPri">
+                <h1>Analise seu texto em tempo real</h1>
+            </div>
+
+            <div class="caixaTexto">
+                <textarea
+                    id="comentario" 
+                    name="comentario" 
+                    placeholder="Comece a digitar aqui...(ou cole seu texto)"
+                    rows="5"
+                    cols="40"
+                ></textarea>
+            </div>
+            <div class="detalhe">
+                <div class="marcacao">
+                    <input type="checkbox" id="check">
+                    <label for="check">Excluir espaço</label>
+                </div>
+
+                <p>Tempo de leitura aprox.: <span id="tempoLeitura">0</span> <span id="unidadeLeitura">minuto</span></p>
+            </div>
+        </section>
+
+        <section class="infor">
+            <div class="cardPri">
+                <span id="totalCaracteres">0</span>
+                <p>Total de caracteres</p>
+            </div>
+
+            <div class="cardSeg">
+                <span id="totalPalavras">0</span>
+                <p>Contagem de palavras</p>
+            </div>
+
+            <div class="cardTer">
+                <span id="totalFrases">0</span>
+                <p>Contagem de frases</p>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h3>Densidade de letras</h3>
+                <p>Nenhum caractere encontrado. Comece a digitar para ver a densidade das letras</p>
+            </div>
+        </section>
+    </main>
+
+    <script src=""></script>
+</body>
+</html>
