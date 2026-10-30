@@ -1,0 +1,2 @@
+# Contador-de-Caractere
+
