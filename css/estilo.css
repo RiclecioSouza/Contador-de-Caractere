@@ -114,3 +114,46 @@ textarea::placeholder,
 .infor .cardTer{
   background: var(--color-coral);
 }
+
+#listaLetras{
+  margin-top: 16px;
+}
+
+#verMais{
+  color: var(--color-text-muted);
+  background: var(--color-control);
+  border: none;
+  font-size: 16px;
+  font-weight: bolder;
+  padding: 5px 8px;
+  border-radius: 5px;
+  margin-top: 18px;
+  cursor: pointer;
+  transition: background .3s ease-in;
+}
+
+#verMais:hover{
+  background: var(--color-control-hover);
+}
+
+.linhaDensidade{
+  display: grid;
+  grid-template-columns: 20px 1fr auto;
+  align-items: center;
+  gap: 12px;
+}
+
+.trilhoDensidade{
+  width: 100%;
+  height: 12px;
+  background: var(--color-control);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.preenchimentoDensidade{
+  display: block;
+  height: 100%;
+  background: var(--color-lavender);
+  border-radius: 10px;
+}

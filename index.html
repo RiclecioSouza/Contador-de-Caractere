@@ -27,6 +27,7 @@
                     cols="40"
                 ></textarea>
             </div>
+
             <div class="detalhe">
                 <div class="marcacao">
                     <input type="checkbox" id="check">
@@ -54,11 +55,15 @@
             </div>
         </section>
 
-        <section>
-            <div>
-                <h3>Densidade de letras</h3>
-                <p>Nenhum caractere encontrado. Comece a digitar para ver a densidade das letras</p>
-            </div>
+        <section class="densidade">
+            <h3>Densidade de letras</h3>
+            <p id="mensagemDensidade">
+                Nenhum caractere encontrado. Comece a digitar para ver a densidade das letras
+            </p>
+
+            <div id="listaLetras"></div>
+
+            <button id="verMais" hidden>Ver mais</button>
         </section>
     </main>
 
